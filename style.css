@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+}
+
+img {
+    width: 100%;
+    border-radius: 0.7rem;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    padding: 1rem 0;
+}
+
+p {
+    font-size: 19px;
+    color: hsl(220, 15%, 55%);
+    padding: 0.5rem 1rem 2rem 1rem;
+    font-weight: 400;
+}
+
+.card {
+    width: 375px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: auto;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.024);
+}
+
+/*PASSAGGI
+1 created style.css
+2 moved here
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+3 Check the design folder
+4 Copied full path and opened it in another screen
+5 Create 1 box(div) in index called card(class) to include a)image and b)text below(h1 and paragraph)
+6 Created a link to style.css in  the head section
+7 in style.css targeted all for a reset in padding and margin to 0
+8 imported style from Google fonts into css
+9 added font Outfit into target all
+10 added width 375px to card
+11 added width to 100%
+12 display flex to body
+13 flex-direction to column
+14 align items to center
+15 background color to light grey
+15 targeted card background to white
+16 added padding 1rem
+17 text-align center (edit: moved to target all)
+18 border radius: 1rem (rem don't change shape)
+19 in body added min-height to 100vh to center the card
+20 to image added border-radius 0.7rem 
+21 added color to text h1 dark blue
+22 added font size 15 px to text paragraph
+23 added color gray to paragraph
+24 added padding to h1
+25 added padding to paragraph
+26 class card set margin to auto
+27 added box shadow
+
+*/
