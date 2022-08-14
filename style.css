@@ -42,6 +42,14 @@ p {
     box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.024);
 }
 
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
 /*PASSAGGI
 1 created style.css
 2 moved here
@@ -76,5 +84,6 @@ p {
 25 added padding to paragraph
 26 class card set margin to auto
 27 added box shadow
+28 added attribution style
 
 */
